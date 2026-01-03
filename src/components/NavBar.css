@@ -19,7 +19,7 @@ body{
     align-items: stretch;
     gap: 2rem;
     padding: 0 1rem;
-
+    box-shadow: 0 0 15px #FFE710, 0 0 15px #FFE710;
 }
 
 .nav ul{

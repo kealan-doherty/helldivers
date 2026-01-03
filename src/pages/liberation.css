@@ -1,0 +1,29 @@
+*{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+
+.header{
+    color: #FFE710;
+    font-size: xx-large;
+
+}
+
+
+.statement{
+    margin-top: 5%;
+    color: #FFE710;
+    font-size: xx-large;
+    text-align: center;
+}

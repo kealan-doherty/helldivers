@@ -9,7 +9,7 @@ import WarbondsLink from "../components/WarbondLink";
 const Home = () => {
     return(
         <>
-            <NavBar/>
+            <NavBar />
             <div className="container">
                 <h1 className='header'>
                     Welcome to the HellDivers Hub

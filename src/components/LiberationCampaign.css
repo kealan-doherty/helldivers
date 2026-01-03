@@ -1,0 +1,57 @@
+.libcontainer{
+    display: inline-block;
+    width: 20%;
+    margin-top: 5%;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    background-color: black;
+    box-shadow: 0 0 15px #FFE710, 0 0 15px #FFE710;
+}
+
+
+.planetName{
+    background-color: black;;
+    top:0;
+    color: #FFE710;
+    text-align: center;
+}
+
+
+
+.libList{
+    background-color: black;
+    margin-top: 20%;
+    color:#FFE710;
+    container: flex;
+    list-style: none;
+}
+
+.listitem{
+    background-color: black;
+    color: #FFE710;
+}
+
+
+
+.botImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.bugsImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
+}
+
+.squidImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+
