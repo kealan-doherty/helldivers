@@ -21,12 +21,24 @@ const Liberation = () =>{
                 <img src ={img1} className="img1" />
             </div>
 
-            
-            <p className="statement">
-                Here you will find up to date info on the current state of the of the Galatic War in the most imporant Liberation campaigns
-            </p>
-          
+            <div>
+                <p className="statement">
+                    Here you will find up to date info on the current state of the of the Galatic War in the most imporant Liberation campaigns
+                </p>
+            </div>
 
+            <div>
+                <h1 className = 'header '> Each Planet will contain the following infomation </h1>
+            </div>
+
+
+            <div>
+                <ul className='planetInfo'>
+                    <li> Player Count </li>
+                    <li> Liberation rate </li>
+                    <li> Planet Health </li>
+                </ul>
+            </div>
             <LiberationCampaign />
         </>
     )

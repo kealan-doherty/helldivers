@@ -57,6 +57,7 @@ const Home = () => {
                     </li>
                 </ul>
             </div>
+            <div className="container"/>
         </>
     )
 }

@@ -27,3 +27,17 @@
     font-size: xx-large;
     text-align: center;
 }
+
+
+.planetInfo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    color:#FFE710;
+    font-size: x-large;
+    justify-content: center;
+    align-items: center;
+    list-style-type: disc;
+    gap:2.5%
+    
+}

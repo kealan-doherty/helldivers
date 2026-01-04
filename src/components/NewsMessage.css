@@ -1,0 +1,14 @@
+.newsMessage{
+    display: flex;
+    color: #FFE710;
+    font-size: x-large;
+    
+    height: auto;
+    margin-top: 5%;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    background-color: black;
+    box-shadow: 0 0 15px #FFE710, 0 0 15px #FFE710;
+    text-align: center;
+    justify-content: center;
+}
