@@ -56,3 +56,27 @@
     
 }
 
+.botContainer{
+    display: inline-block;
+    width: 20%;
+    margin-top: 5%;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    background-color: black;
+    box-shadow: 0 0 15px red, 0 0 15px red;
+    color: red;
+
+}
+
+
+.squidContainer{
+    display: inline-block;
+    width: 20%;
+    margin-top: 5%;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    background-color: black;
+    box-shadow: 0 0 15px purple, 0 0 15px purple;
+    color: purple;
+}
+

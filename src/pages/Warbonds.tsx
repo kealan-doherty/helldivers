@@ -3,6 +3,9 @@ import NavBar from "../components/NavBar";
 const Warbonds = () => {
     return(
         <NavBar/>
+
+
+        
     )
 }
 

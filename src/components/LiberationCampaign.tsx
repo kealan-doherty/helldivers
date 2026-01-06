@@ -26,8 +26,8 @@ function LiberationCampaign() {
     return(
         <>
            {comments.map((comment: any ) => (
-                <div className='libcontainer'>
-                    <h1 key ={comment.name} className='planetName'> {comment.name} </h1>
+                <div key ={comment.name} className='libcontainer'>
+                    <h1 className='planetName'> {comment.name} </h1>
 
                     {comment.faction == 'Terminids' ? <img src ={bugImg} className='bugsImg'></img> : null}
 

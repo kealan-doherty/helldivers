@@ -1,10 +1,15 @@
 import NavBar from "../components/NavBar";
 import NewsMessage from "../components/NewsMessage";
+import img from '../assets/Helldivers-2.png';
+import './News.css';
 
 const News = () => {
     return(
         <>
             <NavBar/>
+            <div className = 'logocontainer'>
+                <img src = {img} className= "logo" />
+            </div>
             
             <div>
                 <h1 className="header">Welcome to the News page </h1>

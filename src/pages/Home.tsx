@@ -5,6 +5,7 @@ import CampaignLink from "../components/campaignLink";
 import GitHubLink from "../components/GithubLink";
 import NewsLink from "../components/NewsLink";
 import WarbondsLink from "../components/WarbondLink";
+import img2 from './../assets/helldivers propoganda.jpg';
 
 const Home = () => {
     return(
@@ -17,7 +18,11 @@ const Home = () => {
             </div>
 
             <div className="container">
+                <img src = {img2} className='img3' />
+
                 <img src = {img} className="img1" />
+
+                <img src = {img2} className='img2' />
             </div>
 
 

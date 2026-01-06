@@ -23,9 +23,10 @@ function NewsMessage() {
     return(
         <>
         {comments.map((comment: any) => (
-            <div>
-                <div className = 'newsMessage'> 
-                    Major News Alert Hellidvers!: {comment.message}
+            <div className = 'newsMessage' >
+                <h1 className = 'alert'> MAJOR NEWS ALERT HELLDIVER </h1>
+                <div> 
+                     {comment.message}
                 </div>
             </div>
         ))};
