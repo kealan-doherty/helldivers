@@ -1,0 +1,32 @@
+.imgcontainer{
+    display: flex;
+    margin-left: 5%;
+    flex-direction: row;
+}
+
+.freedomflame{
+    border-radius: 10px;
+    box-shadow: 0 0 15px orange, 0 0 15px orange;
+    width: 40%;
+}
+
+.freedomHeader{
+    font-size: xx-large;
+    color: orange;
+    margin-bottom: 2%;
+}
+
+.chemicalAgents{
+    border-radius: 10px;
+    box-shadow: 0 0 15px greenyellow, 0 0 15px greenyellow;
+    width:40%;
+    margin-left: 7.5%;
+}
+
+.chemicalHeader{
+    font-size: xx-large;
+    color: greenyellow;
+    margin-bottom: 2%;
+    margin-left: 35%;
+    
+}

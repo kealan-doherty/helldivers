@@ -1,6 +1,8 @@
 import LiberationCampaign from "../components/LiberationCampaign";
 import NavBar from "../components/NavBar";
 import img1 from './../assets/galacticwar-helldivers2.jpg';
+import img2 from './../assets/warbondpageimg.png';
+import img3 from './../assets/libimg3.jpg';
 import './liberation.css';
 
 const Liberation = () =>{
@@ -18,7 +20,9 @@ const Liberation = () =>{
             </div>
 
             <div className="container">
-                <img src ={img1} className="img1" />
+                <img src = {img2} className='libimg2' />
+                <img src ={img1} className="libimg1" />
+                <img src = {img3} className="libimg3" />
             </div>
 
             <div>
