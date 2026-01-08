@@ -14,6 +14,7 @@
     font-size: xx-large;
     color: orange;
     margin-bottom: 2%;
+    margin-left: 15%;
 }
 
 .chemicalAgents{
@@ -29,4 +30,67 @@
     margin-bottom: 2%;
     margin-left: 35%;
     
+}
+
+.mobilizeHeader{
+    font-size: xx-large;
+    color: #FFE710;
+    margin-bottom:2%;
+    margin-left: 37%
+}
+
+.mobilize{
+    border-radius: 10px;
+    box-shadow: 0 0 15px #FFE710, 0 0 15px #FFE710;
+    width: 40%;
+    margin-left: 25%;
+    margin-bottom: 2.5%;
+}
+
+.premium{
+    font-size: 350%;
+    color:#FFE710;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 28%;
+}
+
+.free{
+    font-size: 350%;
+    color:#FFE710;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 31%;
+}
+
+
+.forceHeader{
+    color: blue;
+    font-size: xx-large;
+    margin-left: 15%;
+    margin-top: 2.5%;
+}
+
+.forceoflaw{
+    height: 35em;
+    width: 46em;
+    box-shadow: 0 0 15px blue, 0 0 15px blue;
+    border-radius: 10px;
+}
+
+
+.justiceHeader{
+    font-size: xx-large;
+    margin-bottom: 2.5%;
+    margin-left: 60%;
+    color:burlywood;
+}
+
+.justice{
+    border-radius: 10px;
+    box-shadow: 0 0 15px burlywood, 0 0 15px burlywood;
+    width: 40%;
+    margin-left: 7.5%;
+    
+
 }

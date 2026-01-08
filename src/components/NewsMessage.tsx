@@ -1,4 +1,6 @@
 import { useQuery } from "@tanstack/react-query";
+import img from './../assets/helldivers.png';
+import img2 from './../assets/helldivers-2-galactic-emergency-alert.jpeg';
 import './NewsMessage.css';
 
 
@@ -24,7 +26,19 @@ function NewsMessage() {
         <>
         {comments.map((comment: any) => (
             <div className = 'newsMessage' >
-                <h1 className = 'alert'> MAJOR NEWS ALERT HELLDIVER </h1>
+                <ul className="newsBanner">
+                    <li>
+                        <img src = {img} className ='bannerImg1' />
+                    </li>
+
+                    <li className ='alert'>
+                        MAJOR NEWS ALERT 
+                    </li>
+
+                    <li>
+                        <img src = {img} className ='bannerImg2' />
+                    </li>
+                </ul>
                 <div> 
                      {comment.message}
                 </div>

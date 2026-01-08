@@ -15,5 +15,33 @@
 
 .alert{ 
     color:#FFE710;
-    margin-bottom: 2.5%;
+    margin-bottom: 1%;
+    
+}
+
+.newsBanner{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+    
+}
+
+
+.bannerImg1{
+    width: 10%;
+    margin-right: 80%;
+    border-radius: 10px;
+}
+
+.bannerImg2{
+    width: 10%;
+    margin-left:80%;
+    border-radius: 8px;
+}
+
+.bannerImg3{
+    width: 300%;
+    border-radius: 10px;
+    box-shadow: 0 0 15px red, 0 0 15px red;
+    margin-right: 70%;
 }
