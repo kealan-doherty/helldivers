@@ -24,7 +24,7 @@ const Warbonds = () => {
 
             <div className="container">
 
-                <h1 className = 'welcome'>WARBONDS</h1>
+                <h1 className = 'title'>WARBONDS</h1>
 
             </div>
 
@@ -50,8 +50,8 @@ const Warbonds = () => {
                 </h1>
             </div>
 
-            <div className ='imgcontainer'>
-                <img src ={Helldivers} className='mobilize' />
+            <div className ='mobilize'>
+                <img src ={Helldivers}  />
             </div>
 
 
@@ -90,11 +90,8 @@ const Warbonds = () => {
                 </h1>
             </div>
 
-            <div className='imgcontainer'>
-                <img src ={forceoflaw} className ='forceoflaw' />
-
-
-                <img src ={justice} className ='justice' />
+            <div className='forceoflaw'>
+                <img src ={forceoflaw}/>
 
             </div>
 
@@ -188,8 +185,30 @@ const Warbonds = () => {
                 </h1>
             </div>
 
-            <div className="imgContainer">
+            <div className="imgcontainer">
                 <img src ={python} className="python" />
+
+            </div>
+
+            <div className="imgcontainer">
+                <h1 className = 'legend'>
+                    LEGENDARY WARBONDS
+                </h1>
+            </div>
+
+
+            <div className="imgcontainer">
+                <h1 className="killHeader">
+                    Kill Zone 
+                </h1>
+
+                <h1 className="haloHeader">
+                    Halo ODST
+                </h1>
+            </div>
+
+
+            <div className="imgcontainer">
 
             </div>
 

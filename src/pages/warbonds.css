@@ -4,6 +4,12 @@
     flex-direction: row;
 }
 
+.title{
+    font-size: 350%;
+    margin-left: -7%;
+    color:#FFE710;
+}
+
 .freedomflame{
     border-radius: 10px;
     box-shadow: 0 0 15px orange, 0 0 15px orange;
@@ -41,10 +47,56 @@
 
 .mobilize{
     border-radius: 10px;
-    box-shadow: 0 0 15px #FFE710, 0 0 15px #FFE710;
     width: 40%;
-    margin-left: 25%;
+    margin-left: 27%;
     margin-bottom: 2.5%;
+    position: relative;
+    line-height: 0;
+}
+
+
+.mobilize img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Match the wrapper radius */
+    display: block;
+    position: relative;
+    z-index: 2; /* Keeps image above the glow */
+}
+
+@property --angle{
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+
+.mobilize::after, .mobilize::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: conic-gradient(from var(--angle),#FFE710 ,white, #FFE710);
+    top: 50%;
+    left:50%;
+    translate: -50% -50%;
+    z-index: 1;
+    padding: 4px;
+    border-radius: 14px;
+    animation: 3s spin linear infinite;
+}
+
+.mobilize::before{
+    filter: blur(1.5rem);
+    opacity: 0.5;
+
+}
+@keyframes spin{
+    from{
+        --angle: 0deg;
+    }
+    to{
+        --angle: 360deg;
+    }
 }
 
 .premium{
@@ -75,9 +127,43 @@
 .forceoflaw{
     height: 35em;
     width: 46em;
-    box-shadow: 0 0 15px blue, 0 0 15px blue;
+    position: relative;
     border-radius: 10px;
+    line-height: 0;
+    margin-left: 5%;
 }
+
+
+.forceoflaw img{
+    width:100%;
+    height:100%;
+    border-radius: 10px;
+    display: block;
+    position: relative;
+    z-index: 2;
+    
+}
+
+.forceoflaw::after, .forceoflaw::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: conic-gradient(from var(--angle),blue ,white, blue);
+    top: 50%;
+    left:50%;
+    translate: -50% -50%;
+    z-index: 1;
+    padding: 4px;
+    border-radius: 14px;
+    animation: 3s spin linear infinite;
+}
+
+.forceoflaw::before{
+    filter: blue(1.5rem);
+    opacity: 0.5;
+}
+
 
 
 .justiceHeader{
@@ -262,7 +348,7 @@
     border-radius: 10px;
     width: 40%;
     box-shadow: 0 0 15px lightseagreen, 0 0 15px lightseagreen;
-    margin-left: 4.5%;
+    
 }
 
 
@@ -272,4 +358,45 @@
     margin-bottom: 2.5%;
     color: #FFE710;
     margin-left: 33%;
+}
+
+
+.legend{
+    font-size: 350%;
+    color: gold;
+    margin-top: 6%;
+    margin-left: 27%;
+}
+
+
+.haloHeader{
+
+    color:gold;
+    font-size: xx-large;
+    margin-top: 5%;
+    margin-bottom: 2.5%;
+    margin-left:43%;
+
+}
+
+@property --angle{
+    syntax: "angle";
+    initial-value: 0deg;
+    inherits: false;
+}
+
+.killHeader{
+    color:gold;
+    font-size: xx-large;
+    margin-top: 5%;
+    margin-bottom: 2.5%;
+    margin-left:18%;
+}
+
+.halo{
+
+}
+
+.killzone{
+
 }
