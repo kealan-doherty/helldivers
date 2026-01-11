@@ -1,6 +1,5 @@
 import { useQuery } from "@tanstack/react-query";
 import img from './../assets/helldivers.png';
-import img2 from './../assets/helldivers-2-galactic-emergency-alert.jpeg';
 import './NewsMessage.css';
 
 
