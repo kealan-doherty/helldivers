@@ -15,6 +15,8 @@ import masters from './../assets/mastersofcermony.jpg';
 import dust from './../assets/dust devils.jpg';
 import control from './../assets/control group.jpg';
 import python from './../assets/python commandos.jpg';
+import killzone from './../assets/killzone Warbond.jpg';
+import halo from './../assets/halo warbond.jpg';
 import './warbonds.css';
 
 const Warbonds = () => {
@@ -75,10 +77,15 @@ const Warbonds = () => {
             </div>
 
             <div className="imgcontainer">
-                <img src = {freedomsFlame} className="freedomflame"/>
+                <div className="freedomsflame">
+                    <img src = {freedomsFlame}/>
+                </div>
 
-                <img src={ChemicalAgents} className="chemicalAgents" />
+                <div className="chemicalAgents">
+                    <img src ={ChemicalAgents} />
+                </div>
             </div>
+
 
             <div className="imgcontainer" >
                 <h1 className="forceHeader">
@@ -90,13 +97,16 @@ const Warbonds = () => {
                 </h1>
             </div>
 
-            <div className='forceoflaw'>
-                <img src ={forceoflaw}/>
+            <div>
+                <div className='forceoflaw'>
+                    <img src ={forceoflaw}/>
 
+                </div>
+
+                <div className = 'justice'>
+                    <img src ={justice} />
+                </div>
             </div>
-
-
-
 
             <div className ='imgcontainer'>
                 <h1 className='urbanHeader'> 
@@ -108,9 +118,14 @@ const Warbonds = () => {
                 </h1>
             </div>
 
-            <div className='imgcontainer'>
-                <img src = {urban} className="urban" />
-                <img src = {polar} className='polar' />
+            <div className ='imgcontainer'>
+                <div className = 'urban'>
+                    <img src ={urban} />
+                </div>
+
+                <div className = 'polar'>
+                    <img src = {polar} />
+                </div>
             </div>
 
             <div className="imgcontainer">
@@ -124,9 +139,14 @@ const Warbonds = () => {
             </div>
 
             <div className="imgcontainer">
-                <img src = {steeled} className = 'steeled' />
+                <div className="steeled">
+                    <img src = {steeled}/>
+                </div>
 
-                <img src = {cutting} className='cuttingEdge' />
+                <div className = 'cuttingEdge'>
+                    <img src = {cutting}/>
+                </div>
+                
             </div>
 
             <div className="imgcontainer">
@@ -140,8 +160,13 @@ const Warbonds = () => {
             </div>
 
             <div className="imgcontainer">
-                <img src = {viper} className="viper" />
-                <img src = {truth} className='truth' />
+                <div className = 'viper'>
+                    <img src = {viper}/>
+                </div>
+
+                <div className = 'truth'>
+                    <img src = {truth}/>
+                </div>
             </div>
 
 
@@ -156,8 +181,14 @@ const Warbonds = () => {
             </div>
 
             <div className="imgcontainer">
-                <img src = {demo} className="demo" />
-                <img src = {masters} className="masters" />
+                <div className ='demo'>
+                    <img src = {demo}/>
+                </div>
+
+                <div className = 'masters'>
+                    <img src = {masters}/>
+                </div>
+                
             </div>
 
             <div className="imgcontainer">
@@ -171,8 +202,14 @@ const Warbonds = () => {
             </div>
 
             <div className="imgcontainer">
-                <img src = {dust} className="dust" />
-                <img src = {control} className="control" />
+                <div className="dust">
+                    <img src = {dust}/>
+                </div>
+                
+                <div className="control">
+                    <img src = {control}/>
+                </div>
+                
             </div>
 
             <div className="imgcontainer">
@@ -186,8 +223,10 @@ const Warbonds = () => {
             </div>
 
             <div className="imgcontainer">
-                <img src ={python} className="python" />
-
+                <div className="python">
+                    <img src ={python}/>
+                </div>
+                
             </div>
 
             <div className="imgcontainer">
@@ -209,7 +248,13 @@ const Warbonds = () => {
 
 
             <div className="imgcontainer">
+                <div className="killzone">
+                    <img src = {killzone}/>
+                </div>
 
+                <div className ='halo'>
+                    <img src = {halo}/>
+                </div>
             </div>
 
            
