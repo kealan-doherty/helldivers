@@ -1,4 +1,4 @@
-                                                            WELCOME HELLDIVERS TO THE HELLDIVERS HUB 
+                                                WELCOME HELLDIVERS TO THE HELLDIVERS HUB 
 
 
 
